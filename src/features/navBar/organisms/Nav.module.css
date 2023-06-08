@@ -1,0 +1,68 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 12px 20px;
+    margin: 0 5px;
+}
+
+.nav .logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    filter: drop-shadow(0 2px 5px rgba(255, 255, 255, 0.7));
+}
+
+.nav .logo {
+    max-height: 30px;
+}
+
+.nav .nav_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3px;
+}
+
+.nav .nav_container .icon_bell {
+    display: none;
+}
+
+.nav .menu {
+    display: none;
+}
+
+.nav .menu > button {
+    color: var(--hope-colors-neutral-50);
+    background-color: var(--hope-colors-neutral-900);
+}
+
+.icon_burger {
+    color: var(--hope-colors-neutral-50);
+    outline: none;
+    cursor: pointer;
+}
+.icon_burger button{
+    cursor: pointer;
+}
+.icon_burger:focus{
+    -moz-outline-style:none;
+}
+
+@media screen and (min-width: 1024px) {
+    .nav {
+        margin: 0 20px;
+    }
+
+    .nav .nav_container .icon_bell {
+        display: block;
+        padding: 8px;
+    }
+
+    .nav .menu {
+        display: block;
+    }
+
+}

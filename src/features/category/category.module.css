@@ -1,0 +1,35 @@
+
+.content {
+    @apply flex-col justify-center h-128;
+}
+
+.content {
+    padding: 20px;
+    width: 100%;
+  }
+
+  
+  .productList {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajusta el ancho mínimo y máximo de cada tarjeta según tus necesidades */
+    grid-gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    margin-bottom: 5px;
+  }
+  

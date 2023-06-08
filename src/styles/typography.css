@@ -1,0 +1,19 @@
+.section_title_opaque {
+    @apply mb-2 text-left text-xs uppercase font-extrabold w-full;
+}
+
+.section_title_opaque.border_bottom {
+    @apply border-b-2 border-neutral-600
+}
+
+.section_title {
+    @apply text-3xl font-bold text-neutral-50 mb-4 md:mb-0
+}
+
+.group_field_full_title {
+    @apply text-xl text-neutral-50
+}
+
+.group_field_full_info {
+    @apply text-sm
+}

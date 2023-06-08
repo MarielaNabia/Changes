@@ -1,0 +1,23 @@
+{"categories" : [
+         {
+          "title": "Teléfonos móviles",
+          "enable": true
+        },
+         {
+          "title": "Laptops",
+          "enable": true
+        },
+         {
+          "title": "Televisores",
+          "enable": true
+        },
+         {
+          "title": "Auriculares",
+          "enable": true
+        },
+         {
+          "title": "Tabletas",
+          "enable": true
+        }
+      ]
+      }

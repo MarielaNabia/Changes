@@ -1,0 +1,7 @@
+
+.button_scroll_up {
+    transform: rotate(90deg);
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+}

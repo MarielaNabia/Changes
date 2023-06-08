@@ -1,0 +1,4 @@
+.dash_item_container {
+    @apply flex flex-col justify-start;
+}
+

@@ -1,0 +1,34 @@
+ { 
+  "products" : [
+  {
+    "price": 599.99,
+    "title": "iPhone 12",
+    "enable": true,
+    "category": 1
+  },
+  {
+    "price": 1099.99,
+    "title": "MacBook Pro",
+    "enable": true,
+    "category": 2
+  },
+   {
+    "price": 699.99,
+    "title": "Samsung QLED TV",
+    "enable": true,
+    "category": 3
+  },
+   {
+    "price": 199.99,
+    "title": "Sony WH-1000XM4",
+    "enable": true,
+    "category": 4
+  },
+   {
+    "price": 399.99,
+    "title": "iPad Air",
+    "enable": true,
+    "category": 5
+  }
+]
+}
